@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(49, 49, 49);
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    border: solid 1px black;
+    border-radius: 10px;
+    height: 400px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 50px;
+}
+
+.redLight {
+    background-color: red;
+    border-radius: 50%;
+    width: 150px;
+    height: 250px;
+    margin-top: 5px;
+    
+}
+
+.yellowLight {
+    background-color: yellow;
+    border-radius: 50%;
+    width: 150px;
+    height: 250px;
+    margin: 5px;
+}
+
+.greenLight {
+    background-color: green;
+    border-radius: 50%;
+    width: 150px;
+    height: 250px;
+    margin-bottom: 5px;
+}
+
+.lightOn {
+    box-shadow: 5px 5px 30px rgb(255, 230, 0);
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.purpleLight {
+    background-color: rgb(118, 0, 253);
+    border-radius: 50%;
+    width: 150px;
+    height: 250px;
+    margin-bottom: 5px;
+}
