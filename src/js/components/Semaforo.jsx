@@ -67,11 +67,11 @@ const Semaforo = () => {
                     <div onClick={activeGreen} className={`greenLight ${activeGreen ? greenLight : ""} `}></div>
 					{newLight ? <div  onClick={activePurple} className={`purpleLight ${activePurple ? purpleLight : ""}` }></div>  : <div>  </div>}
                 </div>
-				<div className="boton">
-					<button type="button" onClick={cambio} className="btn-secondary">Cambio</button>
+				<div className="boton mt-3">
+					<button type="button" onClick={cambio} className="btn btn-secondary">Cambio</button>
 				</div>
-				<div className="boton Render">
-					<button type="button" onClick={createLight} className="btn-secondary">Mistery Light</button>
+				<div className="boton Render mt-3">
+					<button type="button" onClick={createLight} className="btn btn-secondary">Mistery Light</button>
 				</div>
         </>
     );
